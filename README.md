@@ -21,32 +21,51 @@ HotelBookingSystem/
 - Store and load data to/from a file
 - Sort customer names alphabetically
 
-## ▶️ How to Run
+# HotelBookingSystem
 
-1. **Compile the program**:
-   ```bash
-   javac Main.java
-   ```
+Simple console-based Java application for managing hotel room bookings.
 
-2. **Run the program**:
-   ```bash
-   java Main
-   ```
+## Summary
 
-3. **Follow the on-screen menu** to interact with the system.
+This program demonstrates basic hotel booking features: listing rooms,
+adding/removing guests, checking empty rooms, finding rooms by guest name,
+storing/loading data to a file, and sorting guest names.
 
-## 📋 Menu Options
+## Project structure
 
-- **A**: Add customer to room  
-- **V**: View all rooms  
-- **E**: Display empty rooms  
-- **D**: Delete customer from room  
-- **F**: Find room by customer name  
-- **S**: Store program data to file  
-- **L**: Load program data from file  
-- **O**: View guests ordered alphabetically  
-- **Q**: Quit program  
+- `Main.java` — program entrypoint and menu-driven UI
+- `Room.java`, `Reservation.java`, `Guest.java`, `Hotel.java`, etc. — core classes
+- `README.md` — this file
 
-## 💡 Requirements
+## Requirements
 
 - Java 8 or later
+
+## Build & run
+
+Open a terminal in the project directory and run:
+
+```bash
+javac *.java
+java Main
+```
+
+On Windows PowerShell you can copy/paste the same commands.
+
+The program runs as an interactive console application and will prompt for
+input (menu commands, dates, guest details, etc.).
+
+## Example
+
+The program prints room listings and a sample reservation flow. See the
+console output when you run `java Main`.
+
+## Contributing
+
+If you want improvements (unit tests, input validation, CLI args, or a GUI),
+open an issue or submit a pull request.
+
+## License
+
+This repository has no license specified. Add a `LICENSE` file if you want to
+clarify reuse/copyright terms.
