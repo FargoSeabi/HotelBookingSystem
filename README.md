@@ -55,15 +55,7 @@ On Windows PowerShell you can copy/paste the same commands.
 The program runs as an interactive console application and will prompt for
 input (menu commands, dates, guest details, etc.).
 
-## Example
 
-The program prints room listings and a sample reservation flow. See the
-console output when you run `java Main`.
-
-## Contributing
-
-If you want improvements (unit tests, input validation, CLI args, or a GUI),
-open an issue or submit a pull request.
 
 ## License
 
