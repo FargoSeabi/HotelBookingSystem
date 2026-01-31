@@ -37,9 +37,6 @@ storing/loading data to a file, and sorting guest names.
 - `Room.java`, `Reservation.java`, `Guest.java`, `Hotel.java`, etc. — core classes
 - `README.md` — this file
 
-## Requirements
-
-- Java 8 or later
 
 ## Build & run
 
